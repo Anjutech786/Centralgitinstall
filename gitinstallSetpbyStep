@@ -1,0 +1,8 @@
+sudo su
+yum update -y
+yum install git -y
+which git
+git --version
+git config --global user.name "anju"
+git config --global user.email "anju@gmail.com"
+git config --list
